@@ -4,8 +4,6 @@ extends CharacterBody2D
 var attack: bool = false
 var speed: int = 200
 
-# тестовое изменение файла для проверки git 
-var testing_value: bool = true
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
