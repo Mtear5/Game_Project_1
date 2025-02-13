@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://bfs8ebv22y41j"]
+[gd_scene load_steps=11 format=4 uid="uid://bfs8ebv22y41j"]
 
 [ext_resource type="PackedScene" uid="uid://clgkbwqd3uppf" path="res://Player_files/player.tscn" id="1_k4587"]
 [ext_resource type="Script" path="res://Player_files/player.gd" id="2_tkiub"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://5gbakm68pmvb" path="res://oak_woods_v1.0/background/background_layer_3.png" id="5_110x6"]
 [ext_resource type="Texture2D" uid="uid://g8hak6hv1dij" path="res://oak_woods_v1.0/oak_woods_tileset.png" id="6_uc5no"]
 [ext_resource type="PackedScene" uid="uid://c7x3hqga8kek3" path="res://Vrag/vrag.tscn" id="7_vgqu7"]
+[ext_resource type="PackedScene" uid="uid://esc1o0123ql3" path="res://Goblin/character_body_2d.tscn" id="8_ktmv2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hs2x7"]
 texture = ExtResource("6_uc5no")
@@ -465,3 +466,6 @@ position = Vector2(523, 499)
 [node name="Player" parent="." instance=ExtResource("1_k4587")]
 position = Vector2(328, 535)
 script = ExtResource("2_tkiub")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("8_ktmv2")]
+position = Vector2(257, 549)
