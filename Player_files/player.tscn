@@ -220,7 +220,7 @@ sprite_frames = SubResource("SpriteFrames_h7ad2")
 animation = &"Run"
 autoplay = "Idle"
 frame = 1
-frame_progress = 0.408076
+frame_progress = 0.18525
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2.4, 2.4)
